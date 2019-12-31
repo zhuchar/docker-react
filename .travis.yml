@@ -11,10 +11,10 @@ script:
 
 deploy:
   edge: true
-  provide: elasticbeantalk
+  provide: elasticbeanstalk
   region: "us-east-1"
   app: "docker-react"
-  env: "Docker-env"
+  env: "DockerReact-env"
   bucket_name: "elasticbeanstalk-us-east-1-797595581591"
   bucket_path: "docker-react"
   on:
